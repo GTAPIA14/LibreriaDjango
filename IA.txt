@@ -1,0 +1,15 @@
+Use 3 promtps de la IA para desarrollar la evaluacion.
+
+Los cuales fueron para facilitar el codigo de models.py , admin.py 
+y un error que tenia con las migraciones.
+
+1. promtps: Generame 2 models, uno de editorial y el otro de libro que cumpla con
+las siguientes caracteristicas: El sistema permite registrar ambos modelos
+y cada libro queda registrado a una editorial. Si se elimina la editorial se borran sus libros. Que pida datos basicos de 
+libros y que el precio sea especificamente en peso chileno
+
+2. Prompts: El admin tiene que estar relacionado con el models. Este tiene
+que permitir el uso de mi super usuario y grupos para las consultas y administracion.
+
+3.- Al entrar a registrar libros la pagina me tirar error de problemas de 
+migracion como puedo corregirlo.
