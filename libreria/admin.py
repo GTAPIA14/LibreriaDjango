@@ -1,3 +1,9 @@
+from django.apps import apps
 from django.contrib import admin
 
-# Register your models here.
+
+app_config = apps.get_app_config("libreria")
+
+for model in app_config.get_models():
+	if model not in admin.site._registry:
+		admin.site.register(model)
